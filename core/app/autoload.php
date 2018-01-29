@@ -1,0 +1,9 @@
+<?php
+// autoload.php
+// Esta funcion elimina el hecho de estar agregando los modelos manualmente
+spl_autoload_register(function($modelname){
+	if(Model::exists($modelname)){
+		include Model::getFullPath($modelname);
+	}
+});
+?>
