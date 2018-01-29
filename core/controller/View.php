@@ -1,5 +1,9 @@
 <?php
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9cde1824f5fd3b370576c4231b49d6b7fa92896f
 // View.php
 // @brief Una vista corresponde a cada componente visual dentro de un modulo.
 

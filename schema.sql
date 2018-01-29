@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 create database base;
 use base;
+=======
+create database keplerone;
+use keplerone;
+>>>>>>> 9cde1824f5fd3b370576c4231b49d6b7fa92896f
 
 create table product(
 	id int not null auto_increment primary key,
@@ -18,3 +23,8 @@ create table operation(
 	created_at datetime,
 	foreign key (product_id) references product(id)
 );
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9cde1824f5fd3b370576c4231b49d6b7fa92896f

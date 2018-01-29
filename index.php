@@ -11,6 +11,7 @@ include "core/autoload.php";
 ob_start();
 session_start();
 
+<<<<<<< HEAD
 // Si quieres que se muestre las consultas SQL debes decomentar la siguiente linea
 // Core::$debug_sql = true;
 
@@ -18,3 +19,13 @@ $lb = new Lb();
 $lb->start();
 
 ?>
+=======
+// si quieres que se muestre las consultas SQL debes decomentar la siguiente linea
+// Core::$debug_sql = true;
+
+
+$lb = new Lb();
+$lb->start();
+
+?>
+>>>>>>> 9cde1824f5fd3b370576c4231b49d6b7fa92896f
