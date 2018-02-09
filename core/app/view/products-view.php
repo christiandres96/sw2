@@ -7,7 +7,7 @@
 <div class="col-md-8">
 <form method="post" action="./?action=products&opt=add">
   <div class="form-group">
-    <label for="exampleInputEmail1">Codigo</label>
+    <label for="exampleInputEmail1">Código</label>
     <input type="text" name="code" required class="form-control" placeholder="Codigo" >
   </div>
   <div class="form-group">
@@ -15,7 +15,7 @@
     <input type="text" name="name" required class="form-control"  placeholder="Nombre">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Descripcion</label>
+    <label for="exampleInputPassword1">Descripción</label>
     <textarea class="form-control" name="description" placeholder="Descripcion"></textarea>
   </div>
   <div class="form-group">
