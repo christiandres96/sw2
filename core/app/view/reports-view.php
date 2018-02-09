@@ -14,6 +14,7 @@
 	<option value="<?php echo $product->id; ?>"><?php echo $product->name; ?></option>
 	<?php endforeach; ?>
 </select>
+	<!--Fin Select-->
 </div>
 
 <div class="col-md-3">
