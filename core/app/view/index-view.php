@@ -4,6 +4,7 @@ $products =  ProductData::getAll();
 <section class="container">
 <div class="row">
 	<div class="col-md-12">
+	<!--Titulo Soluciones tecnologicoas-->
 	<h1>Soluciones Tecnológicas</h1>
 	<a href="./?view=products&opt=new" class="btn btn-default"><i class="fa fa-asterisk"></i> Nuevo Producto</a>
 	<br><br>
