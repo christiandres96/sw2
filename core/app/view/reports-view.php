@@ -48,7 +48,7 @@ $ed = strtotime($_GET["ed"]);
 if($sd!=""&&$ed!=""):
 ?>
 <div class="panel panel-default">
-<div class="panel-heading">Grafica</div>
+<div class="panel-heading">Gráfica</div>
 <div id="graph" class="animate" data-animate="fadeInUp" ></div>
 </div>
 <script>
@@ -136,7 +136,7 @@ $outtotal+= ($out->s);
 <?php else:?>
 <div class="jumbotron">
 	<h2>Fecha Incorrectas</h2>
-	<p>Puede ser que no selecciono un rango de fechas, o el rango seleccionado es incorrecto.</p>
+	<p>Puede ser que no seleccionó un rango de fechas, o el rango seleccionado es incorrecto.</p>
 </div>
 <?php
 endif;
