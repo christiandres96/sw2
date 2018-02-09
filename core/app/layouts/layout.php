@@ -26,7 +26,7 @@
       </button>
       <a class="navbar-brand" href="./">Soluciones Tecnologicas</a>
     </div>
-
+    <!--Colapsar barra de navegacion-->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="./">Inicio</a></li>
