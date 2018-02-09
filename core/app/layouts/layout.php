@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Soluciones Tecnologicas </title>
+    <!--Cabeceras para estilos-->
+    <title> Soluciones Tecnológicas </title>
     <link href="res/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="res/font-awesome/css/font-awesome.min.css">
     <script src="res/js/jquery.min.js"></script>
