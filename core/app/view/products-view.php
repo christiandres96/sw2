@@ -34,7 +34,7 @@
 </div>
 </div>
 </div>
-
+<!--Consulta -->
 <?php elseif(isset($_GET["opt"]) && $_GET["opt"]=="edit"):
 $x = ProductData::getById($_GET["id"]);
 ?>
