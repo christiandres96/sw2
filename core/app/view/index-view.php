@@ -45,6 +45,7 @@ echo $in->s-$out->s;
 <form method="post" action="./?action=products&opt=addin">
 <input type="hidden" name="product_id" value="<?php echo $product->id; ?>">
   <div class="form-group">
+	  <!--Label para poner Email-->
     <label for="exampleInputEmail1">Cantidad</label>
     <input type="text" name="q" required class="form-control" placeholder="Cantidad" >
   </div>
@@ -72,6 +73,7 @@ echo $in->s-$out->s;
     <label for="exampleInputEmail1">Cantidad</label>
     <input type="text" name="q" required class="form-control" placeholder="Cantidad" >
   </div>
+	<!--Boton submit-->
   <button type="submit" class="btn btn-primary">Restar Existencias</button>
 </form>
 
