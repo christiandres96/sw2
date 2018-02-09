@@ -22,8 +22,9 @@ $products =  ProductData::getAll();
 
 		<td><?php echo $product->code; ?></td>
 		<td><?php echo $product->name; ?></td>
-		<td>$ <?php echo $product->price; ?></td>
+		<td>$  <?php echo $product->price; ?></td>
 		<td>
+			
 <?php
 $in = OperationData::sumByPK($product->id,1);
 $out = OperationData::sumByPK($product->id,2);
