@@ -5,6 +5,7 @@
 <h1>Nueva entrada</h1>
 <div class="row">
 <div class="col-md-8">
+  <!--Classs -->
 <form method="post" action="./?action=products&opt=add">
   <div class="form-group">
     <label for="exampleInputEmail1">Código</label>
