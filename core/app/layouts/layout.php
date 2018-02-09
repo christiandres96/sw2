@@ -14,6 +14,7 @@
   </head>
 
   <body>
+    <!--Barra de navegación-->
 <nav class="navbar navbar-inverse navbar-static-top">
   <div class="container">
     <div class="navbar-header">
@@ -39,7 +40,7 @@
 <?php
   View::load("index");
 ?>
-
+<!--Contenedor-->
 <div class="container">
 <div class="row">
 <div class="col-md-12">
