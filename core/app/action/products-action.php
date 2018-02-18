@@ -1,5 +1,5 @@
 <?php
-
+//Script para manejar la tabla de productos
 if(isset($_GET["opt"]) && $_GET["opt"]!=""){
 	$opt = $_GET["opt"];
 	if($opt=="add"){
