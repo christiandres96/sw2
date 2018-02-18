@@ -36,7 +36,7 @@
   </div>
 </nav>
 
-
+<!--Código PHP para cargar la vista adecuada-->
 <?php
   View::load("index");
 ?>
