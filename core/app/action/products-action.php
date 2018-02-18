@@ -1,5 +1,7 @@
 <?php
 //Script para manejar la tabla de productos
+
+//Script para añadir un nuevo producto
 if(isset($_GET["opt"]) && $_GET["opt"]!=""){
 	$opt = $_GET["opt"];
 	if($opt=="add"){
@@ -11,6 +13,7 @@ if(isset($_GET["opt"]) && $_GET["opt"]!=""){
 		$op->add();
 		Core::redir("./");
 	}
+	//Actualizar producto
 	else if($opt=="update"){
 		$op = ProductData::getById($_POST["id"]);
 		$op->name = $_POST["name"];
@@ -20,6 +23,7 @@ if(isset($_GET["opt"]) && $_GET["opt"]!=""){
 		$op->update();
 		Core::redir("./");
 	}
+	//Añadir producto
 	else if($opt=="addin"){
 		$op = new OperationData();
 		$op->product_id = $_POST["product_id"];
@@ -28,6 +32,7 @@ if(isset($_GET["opt"]) && $_GET["opt"]!=""){
 		$op->add();
 		Core::redir("./");
 	}
+	//Añadir producto
 	else if($opt=="addout"){
 		$op = new OperationData();
 		$op->product_id = $_POST["product_id"];
@@ -36,6 +41,8 @@ if(isset($_GET["opt"]) && $_GET["opt"]!=""){
 		$op->add();
 		Core::redir("./");
 	}
+	
+	//Eliminar producto
 	else if($opt=="del"){
 		$op = ProductData::getById($_GET["id"]);
 		$op->del();
