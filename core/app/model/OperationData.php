@@ -5,13 +5,13 @@ class OperationData {
 	public function __construct(){
 		$this->created_at = "NOW()";
 	}
-
+	//Insertar en la base de datos
 	public function add(){
 		$sql = "insert into ".self::$tablename." (q,product_id,kind,created_at) ";
 		$sql .= "value (\"$this->q\",\"$this->product_id\",\"$this->kind\",$this->created_at)";
 		Executor::doit($sql);
 	}
-
+	//Eliminar de la base de datos
 	public function del(){
 		$sql = "delete from ".self::$tablename." where id=$this->id";
 		Executor::doit($sql);
