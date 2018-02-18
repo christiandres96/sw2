@@ -1,4 +1,5 @@
 <?php
+// Conexión a la base de datos MySQL
 class Database {
 	public static $db;
 	public static $con;
