@@ -7,7 +7,7 @@
 >>>>>>> 9cde1824f5fd3b370576c4231b49d6b7fa92896f
 // Core.php
 // @brief obtiene las configuraciones, muestra y carga los contenidos necesarios.
-
+//Inicia el código
 class Core {
 
 	public static $debug_sql = false;
