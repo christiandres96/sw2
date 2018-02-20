@@ -1,5 +1,5 @@
 <?php
-
+//Include de varios scripts php
 include "controller/Core.php";
 include "controller/View.php";
 include "controller/Module.php";
